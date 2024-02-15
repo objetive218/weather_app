@@ -24,7 +24,7 @@ let validate = true;
 async function currentDayWeather(city) {
   try {
     let respont = await fetch(
-      `http://api.weatherapi.com/v1/forecast.json?key=c9e30f3fc921477da02155056241302&q=${city}&days=3`,
+      `https://api.weatherapi.com/v1/forecast.json?key=c9e30f3fc921477da02155056241302&q=${city}&days=3`,
       {
         mode: "cors",
       }
